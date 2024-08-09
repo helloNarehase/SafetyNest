@@ -2,7 +2,7 @@ export default function Dash() {
     return (
         <main>
             <header>
-                hello world!
+                login Page!
             </header>
         </main>
     )
