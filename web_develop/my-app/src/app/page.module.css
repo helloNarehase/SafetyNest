@@ -108,7 +108,6 @@
 .logo {
   position: relative;
 }
-
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -117,7 +116,7 @@
   }
 
   .card:hover span {
-    transform: translateX(4px);
+    transform: translateX(20px);
   }
 }
 
