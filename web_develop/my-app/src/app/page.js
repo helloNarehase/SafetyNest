@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
-        {/* <div>
+        <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
@@ -25,7 +26,7 @@ export default function Home() {
               priority
             />
           </a>
-        </div> */}
+        </div>
       </div>
 
       <div className={styles.center}>
@@ -77,7 +78,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href={'/first'}
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
